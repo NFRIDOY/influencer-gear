@@ -1,4 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Varela+Round&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+/* Genaral Class */
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.manu {
+    list-style-type: none;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* header */
+.header {
+    padding: 57px 120px 0px;
+}
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.manu-list{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.manu {
+    margin-left: 20px;
+    /* width: 80px; */
+}
+.manu > img {
+    width: 40%;
+}
+
+/* banner-container */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gap1{
+    margin-bottom: 20px;
 }
