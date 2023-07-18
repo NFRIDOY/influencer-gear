@@ -20,6 +20,7 @@ button a {
 /* header */
 .header {
     padding: 57px 120px 0px;
+    
 }
 /* nav */
 .nav {
@@ -103,8 +104,15 @@ button a {
     }
 }
 @media screen and (min-width: 640px) and (max-width: 768px) {   
-    main{
-        /* background-color: #E02C6D; */
+    .header{
+        background-color: #ff0;
+    }
+    .header {
+        padding: 10% 8% 10px;
+        width: 100%;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
     }
 
 }
