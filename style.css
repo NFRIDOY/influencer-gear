@@ -106,4 +106,17 @@ button a {
     main{
         /* background-color: #E02C6D; */
     }
+
+}
+@media screen and (min-width: 1280px) {
+    .header{
+        /* background-color: #ff0; */
+    }
+    .banner-container{
+        padding-right: 50px;
+    }
+    .banner-img{
+        display: flex;
+        justify-content: center;
+    }
 }
